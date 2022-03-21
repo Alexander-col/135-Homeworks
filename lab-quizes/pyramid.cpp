@@ -32,6 +32,8 @@ std::string pyramid (std::string strr)
 
 int main()
 {
+    std::cout << pyramid("Mihi cura futuri") << std::endl;
+    std::cout << pyramid("hello") << std::endl;
     // std::cout << pyramid("pyramid") << std::endl;
     // std::cout << pyramid("hunter") << std::endl;
     // std::cout << pyramid("computer") << std::endl;
