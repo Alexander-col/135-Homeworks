@@ -34,14 +34,14 @@ int main()
 {
     std::cout << pyramid("Mihi cura futuri") << std::endl;
     std::cout << pyramid("hello") << std::endl;
-    // std::cout << pyramid("pyramid") << std::endl;
-    // std::cout << pyramid("hunter") << std::endl;
-    // std::cout << pyramid("computer") << std::endl;
-    // std::cout << pyramid("science") << std::endl;
-    // std::cout << pyramid("dana") << std::endl;
-    // std::cout << pyramid("milkshake") << std::endl;
-    // std::string input = "";
-    // std::cin >> input;
-    // std::cout << pyramid(input) << std::endl;
+    std::cout << pyramid("pyramid") << std::endl;
+    std::cout << pyramid("hunter") << std::endl;
+    std::cout << pyramid("computer") << std::endl;
+    std::cout << pyramid("science") << std::endl;
+    std::cout << pyramid("dana") << std::endl;
+    std::cout << pyramid("milkshake") << std::endl;
+    std::string input = "";
+    std::cin >> input;
+    std::cout << pyramid(input) << std::endl;
     return 0;
 }
